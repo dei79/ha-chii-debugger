@@ -1,0 +1,13 @@
+.DS_Store
+.env
+.env.*
+node_modules/
+coverage/
+output/
+*.pem
+*.key
+*.log
+*.tgz
+*.tar
+*.zip
+backups/

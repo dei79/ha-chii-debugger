@@ -1,0 +1,22 @@
+name: Chii Debugger
+version: "1.15.5-3"
+slug: chii_debugger
+description: Remote browser DevTools through authenticated Home Assistant ingress
+arch:
+  - amd64
+  - aarch64
+startup: application
+boot: auto
+init: true
+ingress: true
+ingress_port: 8099
+panel_title: Chii Debugger
+panel_icon: mdi:bug
+panel_admin: false
+options:
+  inspector_user_ids: []
+schema:
+  inspector_user_ids:
+    - str
+url: "https://github.com/dei79/ha-chii-debugger"
+image: "ghcr.io/dei79/ha-chii-debugger"

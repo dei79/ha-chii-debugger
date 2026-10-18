@@ -1,0 +1,13 @@
+{
+  "name": "ha-chii-debugger-project",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "check": "node --check chii_debugger/server.mjs && node --check chii_debugger/access.mjs"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}

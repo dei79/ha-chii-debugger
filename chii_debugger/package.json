@@ -1,0 +1,9 @@
+{
+  "name": "ha-chii-debugger",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "chii": "1.15.5",
+    "chobitsu": "1.8.6"
+  }
+}
