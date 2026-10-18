@@ -80,8 +80,8 @@ is needed in GitHub Actions. The workflow uses the temporary `GITHUB_TOKEN`.
    identity (for example your GitHub noreply email) before your first commit.
 3. Wait for **Validate and build** to succeed. It builds amd64 and arm64 without
    publishing an image on branch pushes, pull requests and manual runs.
-4. Publish the initial version with `git tag v0.1.0` and
-   `git push origin v0.1.0`. The tag must match `version` in `config.yaml`.
+4. Publish version 0.2.0 with `git tag v0.2.0` and
+   `git push origin v0.2.0`. The tag must match `version` in `config.yaml`.
    Tag pushes build and publish the multi-architecture image to GHCR.
 5. In GitHub package settings, make the `ha-chii-debugger` container package
    **public**. Repository visibility alone does not make the package public.
@@ -112,6 +112,10 @@ Upstream dependency vulnerabilities are not resolved by this packaging work.
 No physical-device or live-HA installation test is implied by a successful build.
 
 ## Changelog
+
+### 0.2.0
+
+- Set the repository maintainer to `dei79` for display in the HA app store.
 
 ### 0.1.0
 
