@@ -1,5 +1,5 @@
 name: Chii Debugger
-version: "1.15.5-3"
+version: "0.1.0"
 slug: chii_debugger
 description: Remote browser DevTools through authenticated Home Assistant ingress
 arch:
